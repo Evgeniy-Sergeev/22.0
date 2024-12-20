@@ -4,18 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d65df3f1-ac6f-476b-a5d2-1d5f6978fdfe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/22.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/templates/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="d65df3f1-ac6f-476b-a5d2-1d5f6978fdfe" name="Changes" comment="try 2">
+      <change afterPath="$PROJECT_DIR$/catalog/templates/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/all categories.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/delete product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/perf product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/price.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/products.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/.env_sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/templates/newapp/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +49,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="try22" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Evgeniy-Sergeev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Evgeniy-Sergeev/22.0.git&quot;,
+    &quot;accountId&quot;: &quot;7df5529b-efe3-4ed0-a387-0fef2575c7a3&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -44,15 +79,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Student/PycharmProjects/22.0/manage.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;try23&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Student/PycharmProjects/22.0/manage.py&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\PycharmProjects\22.0\newapp\templates\newapp" />
+      <recent name="C:\Users\Student\PycharmProjects\22.0" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python">
       <module name="22.0" />
@@ -94,9 +136,28 @@
       <option name="presentableId" value="Default" />
       <updated>1733390743305</updated>
     </task>
+    <task id="LOCAL-00001" summary="try 2">
+      <option name="closed" value="true" />
+      <created>1733483960837</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733483960837</updated>
+    </task>
+    <task id="LOCAL-00002" summary="try 2">
+      <option name="closed" value="true" />
+      <created>1733484051644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733484051644</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="try 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="try 2" />
   </component>
 </project>
